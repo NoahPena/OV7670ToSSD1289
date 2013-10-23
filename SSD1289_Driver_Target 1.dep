@@ -1,33 +1,0 @@
-Dependencies for Project 'SSD1289_Driver', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Startup.s)(0x4F58FAA4)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
-F (.\Main.c)(0x52616EB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "main.o" --omf_browse "main.crf" --depend "main.d")
-I (C:\Keil\ARM\Inc\Luminary\lm3s1968.h)(0x4F58FC44)
-I (SysTick.h)(0x52581580)
-I (SSD1289.h)(0x52585B31)
-I (XPT2046.h)(0x525828BD)
-I (ADC.h)(0x5258437C)
-I (OV7670.h)(0x52618736)
-F (.\SysTick.c)(0x524B3E84)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "systick.o" --omf_browse "systick.crf" --depend "systick.d")
-F (.\SSD1289.c)(0x52585B1B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "ssd1289.o" --omf_browse "ssd1289.crf" --depend "ssd1289.d")
-I (C:\Keil\ARM\Inc\Luminary\lm3s1968.h)(0x4F58FC44)
-I (Main.h)(0x52581781)
-I (C:\Keil\ARM\ARMCC\bin\..\include\math.h)(0x4EB18958)
-I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB18956)
-F (.\SSD1289.h)(0x52585B31)()
-F (.\SysTick.h)(0x52581580)()
-F (.\Main.h)(0x52581781)()
-F (.\Port Definitions.txt)(0x52616EF0)()
-F (.\XPT2046.c)(0x52582982)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "xpt2046.o" --omf_browse "xpt2046.crf" --depend "xpt2046.d")
-I (C:\Keil\ARM\Inc\Luminary\lm3s1968.h)(0x4F58FC44)
-I (Main.h)(0x52581781)
-F (.\XPT2046.h)(0x525828BD)()
-F (.\ADC.c)(0x525842BE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "adc.o" --omf_browse "adc.crf" --depend "adc.d")
-I (C:\Keil\ARM\Inc\Luminary\lm3s1968.h)(0x4F58FC44)
-F (.\ADC.h)(0x5258437C)()
-F (.\OV7670.c)(0x52618A90)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary -o "ov7670.o" --omf_browse "ov7670.crf" --depend "ov7670.d")
-I (C:\Keil\ARM\Inc\Luminary\lm3s1968.h)(0x4F58FC44)
-I (main.h)(0x52581781)
-I (OV7670reg.h)(0x516025BE)
-I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
-F (.\OV7670.h)(0x52618736)()
-F (.\OV7670reg.h)(0x516025BE)()
