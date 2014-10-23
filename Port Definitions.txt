@@ -1,0 +1,35 @@
+*		Pin Defintions:
+*		RD = Read(Active Low)
+*		WR = Write(Active Low)
+*		CS = Chip Select(Active Low)
+*		RS = High = Data; Low = Command
+*		RST = Low = Enable
+*		DP_Lo = Data Bus {0 - 7}
+*		DP_Hi = Data Bus {8 - 15}
+*
+*		LCD Screen Pinout:
+*		RD = PD0
+*		WR = PD1
+*		CS = PD2
+*		RS = PD3
+*		RST = PG5
+*		DB0-DB7 = PA0 - PA7
+*		DB8-DB15 = PF0 - PF7
+*
+*		Touch Ability Pinout:
+*		T_CLK = PG0
+*		T_CS = PG1
+*		T_DIN = PG3
+*		T_DOUT = PG4
+*		T_IRQ	= PG6
+*		
+*		OV7670 Camera Pinout:
+*		D0-D7 = PB0-7
+*		SDIOC = PE0
+*		SDIOD = PE1
+*		VSYNC = PE2
+*		HREF = PE3
+*		PCLK = PH0
+*		XCLK = PH1
+*		RESET = PH2
+*		PWDN = PH3

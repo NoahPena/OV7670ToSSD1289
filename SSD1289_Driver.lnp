@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "startup.o" "main.o" "systick.o" "ssd1289.o" "xpt2046.o" "adc.o" "ov7670.o" 
+--strict --scatter "SSD1289_Driver.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\SSD1289_Driver.map" -o SSD1289_Driver.axf

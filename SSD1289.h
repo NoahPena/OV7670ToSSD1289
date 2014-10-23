@@ -1,0 +1,16 @@
+void LCD_Init(void);
+void Write_Command(unsigned int);
+void Write_Data(unsigned int);
+void Write_Command_Data(unsigned int, unsigned int);
+unsigned int Set_color(unsigned int, unsigned int, unsigned int);
+void TFT_Fill(unsigned int);
+void TFT_Box(unsigned int,unsigned int,unsigned int,unsigned int,unsigned int);
+void TFT_Dot(unsigned int, unsigned int, unsigned int);
+void TFT_Line(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int);
+void TFT_H_Line(char, char, unsigned int, unsigned int);
+void TFT_V_Line(unsigned int, unsigned int, char, unsigned int);
+void TFT_Rectangle(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int);
+void TFT_Circle(unsigned int, unsigned int, char, char, unsigned int);
+void TFT_Char(char, unsigned int, unsigned int, char, unsigned int, unsigned int);
+void TFT_Text(char*,unsigned int,unsigned int,char,unsigned int,unsigned int);
+void TFT_Image(unsigned int,unsigned int,unsigned int,unsigned int,const unsigned int*);
